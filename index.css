@@ -1,0 +1,125 @@
+/* BLANCO */
+body.darkmode{
+		margin: 0;
+	padding: 0;
+		height: 100vh;
+	background: white;
+color: #252440;
+
+
+} /* TEXTO */
+.darkmode .container{
+	text-align: center;
+	color: black;
+}
+.darkmode .tic{
+	padding: 10px;
+	border-radius: 10%;
+	 box-shadow: 0 0 10px black, 0 0 10px white, 0 0 10px black;
+}
+.darkmode h1{
+	color: black;
+}
+/* nuevo */
+.darkmode .nuevo button{
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+	border: solid;
+	background: transparent;
+	color: black;
+	
+}
+
+
+.darkmode .game-container{
+
+box-shadow: 0 0 50px green, 0 0 50px white, 0 0 50px green;
+}
+.darkmode .game-cell{
+	box-shadow: 0 0 0 1px yellow;
+	border: 2px solid green;
+}
+/* BOTON 1 */
+.darkmode .game-restart{
+border-radius: 60%;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+	border: solid;
+	background: transparent;
+	color: black;
+}
+/* TODO AQUI TERMINA DE FONDO 2 */
+body{
+	background-color: black;
+}
+.container{
+	text-align: center;
+	color: #3b83bd; /* white;*/
+}
+.game-container{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 316px;
+	margin: 50px auto;
+	height: 316px;
+	box-shadow: 0 0 50px white, 0 0 50px pink, 0 0 50px pink;
+background: whitesmoke;
+}
+.game-cell{
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 0 1px blue;
+	border: 2px solid green;
+	border-left: none;
+	cursor: pointer;
+	line-height: 100px;
+	font-size: 60px;
+
+}
+/* nuevo */
+.nuevo button{
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+	border: solid;
+	background: transparent;
+	color: white;
+	
+}
+.game-restart{
+border-radius: 60%;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 10px;
+	border: solid;
+	background: transparent;
+	color: #3b83bd;
+}
+
+.tic{
+	padding: 10px;
+border-radius: 15%;
+	 box-shadow: 0 0 10px white, 0 0 10px black, 0 0 10px white;
+	 position: relative;
+	  top: -20em; 
+    left: 5px;
+    width: 100px;
+    height: 100px;
+}
+.page-footer{
+	color: white;
+	background-color: #ff0000;
+	font-family: cursive;
+}
+/*
+.progress{
+	width: 150px;
+	right: 10px;
+	top: 100px;
+	position: absolute;
+}
+*/
